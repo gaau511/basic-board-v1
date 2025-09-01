@@ -28,8 +28,8 @@ public class PostServiceImpl implements PostService {
         post.setTitle(createDto.getTitle());
         post.setContent(createDto.getContent());
         post.setAuthor(createDto.getAuthor());
-        postRepository.save(post);
-        return post.getId();
+        Post savedPost = postRepository.save(post);
+        return savedPost.getId();
     }
 
     @Override
