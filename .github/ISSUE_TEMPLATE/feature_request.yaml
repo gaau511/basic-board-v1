@@ -1,0 +1,23 @@
+---
+name: 'Feature Request'
+description: Suggest a feature for BestBoard
+title: "feat(*): "
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 기능 설명
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: 구현 방식
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives-considered
+    attributes:
+      label: 고려사항
+    validations:
+      required: true

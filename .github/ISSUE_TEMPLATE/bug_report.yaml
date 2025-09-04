@@ -1,0 +1,20 @@
+---
+name: Bug report
+description: Report a bug in the BestBoard
+title: "fix(*): "
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 버그 유형
+    validations:
+      required: true
+  - type: textarea
+    id: explain-bug
+    attributes:
+      label: 버그 발생 상황
+      render: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: 해결 방법 (필수 작성 x)
